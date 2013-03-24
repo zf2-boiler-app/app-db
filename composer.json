@@ -1,0 +1,25 @@
+{
+    "name": " zf2-boiler-app/app-db",
+    "type": "library",
+    "description": "ZF2 BoilerApp Database module",
+    "keywords": ["Zend Framework 2","ZF2 Boiler-App","database","doctrine"],
+    "authors": [
+        {
+            "name": "Neilime",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {
+        "php": ">=5.3.3",
+        
+        "zendframework/zendframework": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master"        
+    },
+    "autoload": {
+        "psr-0": {
+            "BoilerAppDb": "src"
+        },
+        "classmap" : ["Module.php"]
+    }
+}
