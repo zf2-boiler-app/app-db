@@ -9,7 +9,7 @@ If you want to contribute don't hesitate, I'll review any PR.
 Introduction
 ------------
 
-__BoilerApp Database module__ is a Zend Framework 2 module
+__ZF2 BoilerApp Database module__ is a Zend Framework 2 module
 
 Requirements
 ------------
@@ -35,7 +35,7 @@ Installation
     }
     ```
 
-2. Now tell composer to download __ZF2 BoilerApp Display module__ by running the command:
+2. Now tell composer to download __ZF2 BoilerApp Database module__ by running the command:
 
     ```bash
     $ php composer.phar update
@@ -49,14 +49,10 @@ Installation
     return array(
         'modules' => array(
             // ...
-            'BoilerAppDisplay',
+            'BoilerAppDb',
         ),
         // ...
     );
     ```
 
 ## Features
-
-- Complex templating
-- Assets management
-- Twitter bootstrap integration

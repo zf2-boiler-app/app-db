@@ -5,7 +5,7 @@ return array(
 
 	//Factories
 	'BoilerAppDb\Factory\AbstractEntityRepositoryFactory' => __DIR__.'/src/BoilerAppDb/Factory/AbstractEntityRepositoryFactory.php',
-
+		
 	//Repositories
 	'BoilerAppDb\Repository\AbstractEntityRepository' => __DIR__.'/src/BoilerAppDb/Repository/AbstractEntityRepository.php',
 
