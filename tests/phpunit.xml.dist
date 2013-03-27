@@ -7,7 +7,7 @@
          stopOnFailure="false">
 
     <testsuites>
-        <testsuite name="src">
+        <testsuite name="BoilerAppDb">
             <directory suffix=".php">./BoilerAppDbTest/</directory>
         </testsuite>
     </testsuites>

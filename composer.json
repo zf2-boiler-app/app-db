@@ -1,5 +1,6 @@
 {
     "name": "zf2-boiler-app/app-db",
+    "license": "MIT",
     "type": "library",
     "description": "ZF2 BoilerApp Database module",
     "keywords": ["Zend Framework 2","ZF2 Boiler-App","database","doctrine"],
