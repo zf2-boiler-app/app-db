@@ -43,13 +43,15 @@ Installation
 
 #### Post installation
 
-1. Enabling it in your `application.config.php` file.
+1. Enabling BoilerAppDb and Doctrine modules in your `application.config.php` file.
 
     ```php
     return array(
         'modules' => array(
             // ...
             'BoilerAppDb',
+            'DoctrineModule',
+    		'DoctrineORMModule'
         ),
         // ...
     );
