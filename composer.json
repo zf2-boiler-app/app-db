@@ -15,7 +15,7 @@
         "php": ">=5.3.3",
         "ext-pdo_mysql": "*",
         "zendframework/zendframework": "dev-master",
-        "doctrine/doctrine-orm-module": "dev-master"        
+        "doctrine/doctrine-orm-module": "dev-master"
     },
     "autoload": {
         "psr-0": {
