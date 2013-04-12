@@ -17,6 +17,9 @@
         "zendframework/zendframework": "dev-master",
         "doctrine/doctrine-orm-module": "dev-master"
     },
+    "require-dev":{
+    	"zf2-boiler-app/app-test": "dev-master"
+    },
     "autoload": {
         "psr-0": {
             "BoilerAppDb": "src"

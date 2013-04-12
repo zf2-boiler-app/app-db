@@ -49,9 +49,9 @@ Installation
     return array(
         'modules' => array(
             // ...
-            'BoilerAppDb',
             'DoctrineModule',
-    		'DoctrineORMModule'
+			'DoctrineORMModule',
+            'BoilerAppDb',
         ),
         // ...
     );
