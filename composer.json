@@ -10,6 +10,9 @@
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/zf2-boiler-app/app-db/issues"
+    },
     "minimum-stability" : "dev",
     "require": {
         "php": ">=5.3.3",
@@ -25,5 +28,10 @@
             "BoilerAppDb": "src"
         },
         "classmap" : ["Module.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
