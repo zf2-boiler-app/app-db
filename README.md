@@ -1,6 +1,8 @@
 ZF2 BoilerApp Database module
 =====================
 
+[![Build Status](https://travis-ci.org/zf2-boiler-app/app-db.png?branch=master)](https://travis-ci.org/zf2-boiler-app/app-db)
+
 Created by Neilime
 
 NOTE : This module is in heavy development, it's not usable yet.
