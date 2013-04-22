@@ -14,11 +14,13 @@ class AbstractEntityRepositoryFactory implements \Zend\ServiceManager\AbstractFa
 	}
 
 	/**
-	 * Create service with name
+	 * @see \Zend\ServiceManager\AbstractFactoryInterface::createServiceWithName()
 	 * @param \Zend\ServiceManager\ServiceLocatorInterface $oServiceLocator
 	 * @param string $sName
 	 * @param string $sRequestedName
-	 * @return object
+	 * @throws \InvalidArgumentException
+	 * @throws \BadMethodCallException
+	 * @return \Doctrine\ORM\EntityRepository
 	 */
 	public function createServiceWithName(\Zend\ServiceManager\ServiceLocatorInterface $oServiceLocator, $sName, $sRequestedName){
 		/* @var $oEntityManager \Doctrine\ORM\EntityManager */

@@ -27,7 +27,7 @@ abstract class AbstractEntityRepository extends \Doctrine\ORM\EntityRepository{
      */
     public function remove(\BoilerAppDb\Entity\AbstractEntity $oEntity){
         $this->_em->remove($oEntity);
-        $this->_em->flush($oEntity);
+        $this->_em->flush();
         return $oEntity;
     }
 }

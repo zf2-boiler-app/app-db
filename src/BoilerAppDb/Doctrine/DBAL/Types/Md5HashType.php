@@ -28,7 +28,7 @@ class Md5HashType extends \Doctrine\DBAL\Types\StringType{
      * @return string
      */
     public function convertToDatabaseValue($sValue, \Doctrine\DBAL\Platforms\AbstractPlatform $oPlatform){
-        if(!!preg_match('/^[a-f0-9]{32}$/', $sValue))throw new \InvalidArgumentException(sprintf(
+        if(!preg_match('/^[a-f0-9]{32}$/', $sValue))throw new \InvalidArgumentException(sprintf(
         	'Md5HashType expects valid md5 hash, "%s" given',
         	is_string($sValue)?'not md5 string':gettype($sPassword)
         ));

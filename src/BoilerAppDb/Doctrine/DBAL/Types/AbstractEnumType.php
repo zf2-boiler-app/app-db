@@ -40,7 +40,7 @@ abstract class AbstractEnumType extends \Doctrine\DBAL\Types\Type{
      * @return string
      */
     public function convertToDatabaseValue($sValue, \Doctrine\DBAL\Platforms\AbstractPlatform $oPlatform){
-        if(!in_array($value, $this->values))throw new \InvalidArgumentException(sprintf(
+        if(!in_array($sValue, $this->values))throw new \InvalidArgumentException(sprintf(
         	'"%s" EnumType expects "%s" values, "%s" given',
         	$this->getName(),implode(', ',$this->values),$sValue
         ));
@@ -49,9 +49,11 @@ abstract class AbstractEnumType extends \Doctrine\DBAL\Types\Type{
 
     /**
      * @see \Doctrine\DBAL\Types\Type::getName()
+     * @throws \LogicException
      * @return string
      */
     public function getName(){
+    	if(!is_string($this->name))throw new \LogicException('Name is undefined');
         return $this->name;
     }
 }
