@@ -6,7 +6,7 @@
          backupStaticAttributes="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="BoilerAppAccessControl">
+        <testsuite name="BoilerAppDb">
             <directory suffix=".php">./BoilerAppDbTest/</directory>
         </testsuite>
     </testsuites>
