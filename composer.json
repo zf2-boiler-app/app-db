@@ -17,15 +17,15 @@
     "require": {
         "php": ">=5.3.3",
         "ext-pdo_mysql": "*",
-        "zendframework/zendframework": "2.2.*@dev",
-        "doctrine/doctrine-orm-module": "0.8.*@dev"
+        "zendframework/zendframework": "2.2.*",
+        "doctrine/doctrine-orm-module": "0.8.*"
     },
     "require-dev":{
-    	"zf2-boiler-app/app-test": "1.0.*@dev"
+    	"zf2-boiler-app/app-test": "1.0.*"
     },
     "autoload": {
         "psr-0": {
-            "BoilerAppDb": "src"
+            "BoilerAppDb": "src/"
         },
         "classmap" : ["Module.php"]
     },
