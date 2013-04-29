@@ -3,7 +3,7 @@ ZF2 BoilerApp Database module
 
 [![Build Status](https://travis-ci.org/zf2-boiler-app/app-db.png?branch=master)](https://travis-ci.org/zf2-boiler-app/app-db)
 
-Created by Neilime
+_100% Code Coverage_
 
 NOTE : This module is in heavy development, it's not usable yet.
 If you want to contribute don't hesitate, I'll review any PR.
@@ -11,7 +11,7 @@ If you want to contribute don't hesitate, I'll review any PR.
 Introduction
 ------------
 
-__ZF2 BoilerApp Database module__ is a Zend Framework 2 module
+__ZF2 BoilerApp Database module__ is a Zend Framework 2 module that provides database core of ZF2 Boiler-App
 
 Requirements
 ------------
@@ -52,7 +52,7 @@ Installation
         'modules' => array(
             // ...
             'DoctrineModule',
-			'DoctrineORMModule',
+            'DoctrineORMModule',
             'BoilerAppDb',
         ),
         // ...
@@ -60,3 +60,16 @@ Installation
     ```
 
 ## Features
+
+#### Doctrine
+
+###### Commons
+- Repositories abstract factory
+- Support entity's date of create and update
+
+###### DBAL types
+- Email
+- Md5 hash
+- Enum
+
+
