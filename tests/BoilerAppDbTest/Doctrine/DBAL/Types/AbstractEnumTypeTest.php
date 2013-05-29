@@ -17,7 +17,7 @@ class AbstractEnumTypeTest extends \BoilerAppTest\PHPUnit\TestCase\AbstractTestC
 	}
 
 	public function testGetSqlDeclaration(){
-		$this->assertEquals('ENUM(`value 1`, `value 2`) COMMENT "(DC2Type:testenum)"', $this->testenumType->getSqlDeclaration(array(), $this->getServiceManager()->get('doctrine.connection.orm_default')->getDatabasePlatform()));
+		$this->assertEquals('ENUM("value 1", "value 2") COMMENT "(DC2Type:testenum)"', $this->testenumType->getSqlDeclaration(array(), $this->getServiceManager()->get('doctrine.connection.orm_default')->getDatabasePlatform()));
 	}
 
 	public function testConvertToPHPValue(){

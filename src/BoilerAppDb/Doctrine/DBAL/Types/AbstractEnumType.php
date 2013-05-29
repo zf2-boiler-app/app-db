@@ -18,8 +18,8 @@ abstract class AbstractEnumType extends \Doctrine\DBAL\Types\Type{
      */
     public function getSqlDeclaration(array $aFieldDeclaration, \Doctrine\DBAL\Platforms\AbstractPlatform $oPlatform){
     	return 'ENUM('.implode(', ', array_map(function($sValue) use ($oPlatform){
-        	return $oPlatform->quoteIdentifier($sValue);
-       	}, $this->values)).') COMMENT "(DC2Type:'.$this->getName().')"';
+        	return '"'.addcslashes($sValue,'"').'"';
+       	}, $this->values)).') COMMENT "'.addcslashes($oPlatform->getDoctrineTypeComment($this),'"').'"';
     }
 
     /**
