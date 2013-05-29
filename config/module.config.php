@@ -8,6 +8,13 @@ return array(
 					'md5hash' => 'BoilerAppDb\Doctrine\DBAL\Types\Md5HashType'
 				)
 			)
+		),
+		'connection' => array(
+			'orm_default' => array(
+				'doctrineTypeMappings' => array(
+					'enum' => 'string'
+				)
+			)
 		)
 	),
     'service_manager' => array(
