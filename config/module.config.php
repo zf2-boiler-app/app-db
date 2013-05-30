@@ -11,6 +11,7 @@ return array(
 		),
 		'connection' => array(
 			'orm_default' => array(
+				'driverClass' => 'Doctrine\DBAL\Driver\Mysqli\Driver',
 				'doctrineTypeMappings' => array(
 					'enum' => 'string'
 				)
