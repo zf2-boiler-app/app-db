@@ -17,11 +17,11 @@
     "require": {
         "php": ">=5.3.3",
         "ext-pdo_mysql": "*",
-        "zendframework/zendframework": "2.3.*",
-        "doctrine/doctrine-orm-module": "0.8.*"
+        "zendframework/zendframework": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master"
     },
     "require-dev":{
-    	"zf2-boiler-app/app-test": "1.0.*"
+    	"zf2-boiler-app/app-test": "dev-master"
     },
     "autoload": {
         "psr-0": {
