@@ -58,6 +58,12 @@ Installation
         // ...
     );
     ```
+    
+2. Allowing Mysqli reconnexion in php.ini
+	
+	```ini
+	mysqli.reconnect = On;
+	```
 
 ## Features
 
