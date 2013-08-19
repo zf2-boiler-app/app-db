@@ -2,6 +2,8 @@ ZF2 BoilerApp "Database" module
 =====================
 
 [![Build Status](https://travis-ci.org/zf2-boiler-app/app-db.png?branch=master)](https://travis-ci.org/zf2-boiler-app/app-db)
+[![Latest Stable Version](https://poser.pugx.org/zf2-boiler-app/app-db/v/stable.png)](https://packagist.org/packages/zf2-boiler-app/app-db)
+[![Total Downloads](https://poser.pugx.org/zf2-boiler-app/app-db/downloads.png)](https://packagist.org/packages/zf2-boiler-app/app-db)
 ![Code coverage](https://raw.github.com/zf2-boiler-app/app-test/master/ressources/100%25-code-coverage.png "100% code coverage")
 
 NOTE : This module is in heavy development, it's not usable yet.
