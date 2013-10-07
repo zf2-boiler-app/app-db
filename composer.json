@@ -15,7 +15,7 @@
     },
     "minimum-stability" : "dev",
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4",
         "ext-pdo_mysql": "*",
         "zendframework/zendframework": "dev-master",
         "doctrine/doctrine-orm-module": "dev-master"
